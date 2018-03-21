@@ -61,4 +61,5 @@ header {
 }
 body {
     background-image: url("../images/background.jpg");
+    margin: 15px;
 }
