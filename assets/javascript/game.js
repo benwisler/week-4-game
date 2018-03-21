@@ -6,7 +6,7 @@ var but1 = Math.floor(Math.random() * 12 + 1);
 var but2 = Math.floor(Math.random() * 12 + 1);
 var but3 = Math.floor(Math.random() * 12 + 1);
 var but4 = Math.floor(Math.random() * 12 + 1)
-var randNum = Math.floor(Math.random() * 120) + 1;
+var randNum = Math.floor(Math.random() * 101) + 19;
 
 // function start() {
 //     var randNum = Math.floor(Math.random() * 120) + 1;
@@ -36,12 +36,13 @@ function update() {
 function game() {
     if (score == randNum) {
         wins++;
-        console.log('you win');
+        $("#result").html('You Win!');
         update();
         reset();
     }
     else if (score > randNum) {
         losses++;
+        $("#result").html('You Lose!');
         update();
         reset();
     }
@@ -53,7 +54,7 @@ function reset() {
     score = 0;
     $("#totalScore").empty();
     $("#totalScore").prepend(score);
-    randNum = Math.floor(Math.random() * 120) + 1;
+    randNum = Math.floor(Math.random() * 101) + 19;
     $("#randomDiv").empty();
     $("#randomDiv").append(randNum);
     but1 = Math.floor(Math.random() * 12 + 1);
