@@ -1,0 +1,64 @@
+.instruct {
+    background: #cdbb79;
+    width: 500px;
+    line-height: 25px;
+    padding: 10px;
+    color: #06425c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button {
+    background-color: black;
+    border: none;
+    margin-bottom: 5px;
+}
+header {
+    background: #51a39d;
+    color: #b7695c;
+    width: 400px;
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+    margin-bottom:10px;
+}
+#randomDiv {
+    width: 100px;
+    height: auto;
+    background: #814374;
+    float: left;
+    margin-right: 10px;
+    color: wheat;
+    font-size:60px;
+    text-align: center;
+
+}
+#winlossDiv {
+    width: 75px;
+    background: #51a39d;
+    display: inline-block;
+    padding: 16px 0 16px 0;
+    margin-bottom: 5px;
+    color : #814374;
+
+}
+#scoreHeader {
+    background: #cdbb79;
+    clear: both;
+    width: 200px;
+    color: #06425c;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#totalScore {
+    width: 200px;
+    height: auto;
+    background: #cdbb79;
+    color: #06425c;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 50px;
+
+}
+body {
+    background-image: url("../images/background.jpg");
+}
